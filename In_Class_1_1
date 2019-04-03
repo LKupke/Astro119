@@ -1,0 +1,8 @@
+'''This solves for the sum of 5i. n is the number of iterations'''
+i=1
+n=10
+x=0
+while i <=n: #a loop
+    x = 5*i+x
+    i = i+1
+print (x)
