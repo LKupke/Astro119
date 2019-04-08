@@ -1,0 +1,8 @@
+'''create a list and append squared numbers to list'''
+list_squares=[]
+#loop over natural numbers square and add to list_squares
+#range (start, stop, increment)
+for x in range(1,11,1):
+    list_squares.append(x**2)
+print(list_squares)
+#print (x) will print last x values
